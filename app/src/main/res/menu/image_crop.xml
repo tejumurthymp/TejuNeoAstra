@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_rotate_right_24"
+        android:title="Rotate"
+        android:id="@+id/rotate"
+        app:showAsAction="always" />
+
+    <item
+        android:icon="@drawable/ic_crop_24"
+        android:title="Crop"
+        android:id="@+id/crop"
+        app:showAsAction="always"/>
+
+    <item
+        android:icon="@drawable/ic_baseline_cancel_24"
+        android:title="Cancel"
+        android:id="@+id/cancel"
+        app:showAsAction="always"/>
+
+    <item
+        android:icon="@drawable/ic_flip_24"
+        android:title="V Flip"
+        android:id="@+id/vertical_flip"
+        app:showAsAction="always"/>
+
+    <item
+        android:icon="@drawable/ic__horizontal_24"
+        android:title="H Flip"
+        android:id="@+id/horizontal_flip"
+        app:showAsAction="always"/>
+
+</menu>
