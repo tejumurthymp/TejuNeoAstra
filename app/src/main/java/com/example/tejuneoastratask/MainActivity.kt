@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
             ImageActivity.start(this)
         }
 
+        //Some code changed
         binding.button2.setOnClickListener {
             val dialog = AlertDialog.Builder(this).create()
 
